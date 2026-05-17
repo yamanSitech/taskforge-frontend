@@ -1,0 +1,39 @@
+# Phase 3 — replace useProjects mock data with these queries via Apollo Client
+
+# query GetProjects {
+#   projects {
+#     id
+#     name
+#     description
+#     status
+#     createdAt
+#     tasks {
+#       id
+#       title
+#       description
+#       status
+#       priority
+#       assigneeInitials
+#       dueDate
+#     }
+#   }
+# }
+
+# query GetProject($id: ID!) {
+#   project(id: $id) {
+#     id
+#     name
+#     description
+#     status
+#     createdAt
+#     tasks {
+#       id
+#       title
+#       description
+#       status
+#       priority
+#       assigneeInitials
+#       dueDate
+#     }
+#   }
+# }
